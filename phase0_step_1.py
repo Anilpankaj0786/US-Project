@@ -1,0 +1,4 @@
+import requests 
+url="https://in.images.search.yahoo.com/images/view;_ylt=AwrKAnx.QNNp5lEnRF69HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzVmZjQwZWZmMjk2OWE3OTI4MjIxZDUwMmQ2MTZmZjlmBGdwb3MDMQRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Drequirement%2B.txt%2Brun%26type%3DE211IN826G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D1&w=556&h=212&imgurl=media.geeksforgeeks.org%2Fwp-content%2Fuploads%2F20230909130230%2FScreenshot-from-2023-09-09-13-01-39.png&rurl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fpython%2Fhow-to-create-requirements-txt-file-in-python%2F&size=37KB&p=requirement+.txt+run&oid=5ff40eff2969a7928221d502d616ff9f&fr2=piv-web&fr=mcafee&tt=How+to+Create+Requirements.txt+File+in+Python+-+GeeksforGeeks&b=0&ni=21&no=1&ts=&tab=organic&sigr=Kuyz45gIYxCs&sigb=oXzWkfWRI4qG&sigi=8t3svjQ0RbVP&sigt=tEocpFmQvfJK&.crumb=Fy8QDX8zgjm&fr=mcafee&fr2=piv-web&type=E211IN826G0"
+response = requests.get(url)
+print(response)
